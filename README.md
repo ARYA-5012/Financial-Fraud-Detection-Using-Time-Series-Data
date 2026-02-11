@@ -244,3 +244,11 @@ This project is licensed under the MIT License.
 - **IEEE-CIS Fraud Detection** dataset from [Kaggle](https://www.kaggle.com/c/ieee-fraud-detection)
 - [LightGBM](https://lightgbm.readthedocs.io/), [XGBoost](https://xgboost.readthedocs.io/), [CatBoost](https://catboost.ai/)
 - [FastAPI](https://fastapi.tiangolo.com/) for the serving framework
+
+---
+
+## 👨‍💻 Author
+
+**Arya Yadav**
+
+---
