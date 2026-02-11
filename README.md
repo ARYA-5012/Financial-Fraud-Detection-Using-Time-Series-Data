@@ -8,6 +8,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![LightGBM](https://img.shields.io/badge/LightGBM-4.0+-9ACD32)](https://lightgbm.readthedocs.io)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebooks-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/aryyaaaaa/notebook0f058ba2e7)
 
 </div>
 
@@ -108,8 +109,8 @@ fraud-detection/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/<your-username>/fraud-detection.git
-cd fraud-detection
+git clone https://github.com/ARYA-5012/Financial-Fraud-Detection-Using-Time-Series-Data.git
+cd Financial-Fraud-Detection-Using-Time-Series-Data
 pip install -r requirements.txt
 ```
 
@@ -181,8 +182,10 @@ Navigate to **http://localhost:8000** in your browser.
 
 Training is done on **Kaggle** (free GPU/CPU) using the provided notebooks:
 
-1. **EDA Notebook** (`03_kaggle_eda.ipynb`) — Data exploration, class imbalance analysis, feature distributions
-2. **Training Notebook** (`04_kaggle_training.ipynb`) — Full pipeline: preprocess → engineer features → train 3 models → evaluate → export artifacts
+| Notebook | Kaggle Link | Description |
+|----------|-------------|-------------|
+| **EDA** | [📊 Open on Kaggle](https://www.kaggle.com/code/aryyaaaaa/notebookbb73263c07) | Data exploration, class imbalance analysis, feature distributions |
+| **Training** | [🚀 Open on Kaggle](https://www.kaggle.com/code/aryyaaaaa/notebook0f058ba2e7) | Full pipeline: preprocess → features → train 3 models → evaluate → export |
 
 ### Training Results (on test set)
 
