@@ -129,7 +129,11 @@ Place trained model artifacts in the `models/` directory:
 ### 3. Run the API
 
 ```bash
+# Option A: Run FastAPI backend (for REST API)
 uvicorn api.main:app --reload --port 8000
+
+# Option B: Run Streamlit Dashboard (standalone)
+streamlit run streamlit_app.py
 ```
 
 ### 4. Open the Dashboard
@@ -230,6 +234,14 @@ docker-compose up --build
 ```
 
 The API will be available at `http://localhost:8000`.
+
+## ☁️ Streamlit Cloud Deployment
+
+1. Fork this repository to your GitHub.
+2. Go to [Streamlit Cloud](https://streamlit.io/cloud).
+3. Connect your GitHub account and select this repository.
+4. Set the main file path to `streamlit_app.py`.
+5. Click **Deploy**! 🚀
 
 ---
 
