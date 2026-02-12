@@ -27,11 +27,12 @@ data/features/
 *.feather
 
 # ══════════════════════════════════════════════════════════
-#  Trained Models (download from Kaggle output)
+#  Trained Models — committed for Streamlit Cloud
+#  (files are small: ~900 KB total)
 # ══════════════════════════════════════════════════════════
-models/*.pkl
-models/*.cbm
-models/*.xgb
+# models/*.pkl
+# models/*.cbm
+# models/*.xgb
 models/*.h5
 models/*.pt
 
